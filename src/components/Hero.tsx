@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Download } from 'lucide-react';
-import profileImage from 'figma:asset/4cc6110dca4f938af9218b1bffef10f0cf8de690.png';
+import profileImage from '../assets/profile.webp';
 
 export function Hero() {
   const [showCursor, setShowCursor] = useState(true);
